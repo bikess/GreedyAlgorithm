@@ -29,6 +29,7 @@ public class HuffmanCode {
 			@Override
 			public int compare(ZiFu o1, ZiFu o2) {
 				// TODO Auto-generated method stub
+//				这o1>o2返回1，表明队列中的值按照从大到小排列。
 				if(o1.p>o2.p){
 					return 1;
 				}
